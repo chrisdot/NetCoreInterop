@@ -4,12 +4,12 @@
 class CMathNerd
 {
 	public:
-		CMathNerd(int start);
+		CMathNerd(int start); //constructor
 		void Add(int val);
 		int Val();
 
 	private:
-		int value;
+		int value; 
 };
 
 #endif // __CMATH_NERD_HPP__
